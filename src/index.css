@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .fondo_gradient_login {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(27, 65, 106, 1) 47%
+    );
+  }
+
+  .page-height {
+    height: calc(100vh - 72px - 56px);
+  }
+
+  .page-height-login {
+    height: calc(100vh - 60px - 56px);
+  }
+}
+
+.ant-layout-sider-trigger svg {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
